@@ -355,7 +355,7 @@ button {
 .hero-image {
     position: absolute;
     inset: 0;
-    background-image: url('../images/hero-bg.png');
+    background-image: url('../images/hero-bg.webp');
     background-size: cover;
     background-position: center;
     opacity: 0.5;
