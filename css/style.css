@@ -515,6 +515,39 @@ button {
     border-color: rgba(255, 255, 255, 0.5);
 }
 
+/* Phone CTA Button */
+.btn-phone {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(135deg, var(--color-accent), var(--color-accent-light));
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(201, 162, 39, 0.35);
+    transition: var(--transition-base);
+}
+
+.btn-phone:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(201, 162, 39, 0.45);
+}
+
+.btn-phone-label {
+    background: rgba(0, 0, 0, 0.15);
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-primary-dark);
+}
+
+.btn-phone-number {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    letter-spacing: 0.02em;
+}
+
 .btn-large {
     padding: 1.25rem 2.5rem;
     font-size: 1.125rem;
@@ -740,6 +773,7 @@ button {
 .logo-accent {
     color: var(--color-accent);
     font-weight: 700;
+    font-size: 1.4em;
 }
 
 .header.scrolled .logo-accent {
