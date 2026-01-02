@@ -740,18 +740,14 @@ button {
 .logo-accent {
     color: var(--color-accent);
     font-weight: 700;
-    border-bottom: 2px solid var(--color-accent);
-    padding-bottom: 2px;
 }
 
 .header.scrolled .logo-accent {
     color: var(--color-accent-dark);
-    border-bottom-color: var(--color-accent-dark);
 }
 
 .footer-logo .logo-accent {
     color: var(--color-accent);
-    border-bottom-color: var(--color-accent);
 }
 
 /* === Hero Subtitle Highlight === */
